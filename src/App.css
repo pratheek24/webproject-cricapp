@@ -1,0 +1,80 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+.background{
+  background-image: url("./components/home1.jfif");
+  background-repeat: no-repeat;
+  
+  background-position: center;
+  background-size: cover;
+  height: 100vh;
+  min-height: 380px;
+}
+.background1{
+  background-image: url("./components/home.jfif");
+  background-repeat: no-repeat;
+  
+  background-position: center;
+  background-size: cover;
+
+  min-height: 380px;
+}
+.background2{
+  background-image: url("./components/home.jfif");
+  background-repeat: no-repeat;
+  
+  background-position: center;
+  background-size: cover;
+  height: 90vh;
+  min-height: 380px;
+  
+}
+
+.navbar__container {
+  display: flex;
+  height: 100px;
+  align-items: center;
+  justify-content: space-between;
+}
+.aa{
+ height: 50px;
+}
+.logo{
+ height: 100px;
+ padding: 0px;
+}
