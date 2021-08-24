@@ -113,8 +113,8 @@ app.route('/signin').post((req, res) => {
 
 });
 
+const PORT=process.env.PORT|| 5050;
 
-
-app.listen(5050,()=>{
+app.listen(PORT,()=>{
     console.log("Backend connected...");
 });
